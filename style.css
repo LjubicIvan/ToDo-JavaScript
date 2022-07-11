@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(
+        140deg,
+        #040935,
+        #2916fa
+    );
+} 
+.container{
+    border: 2px solid white;
+    width: 40%;
+    min-width: 450px;
+    border-radius: 10px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    padding: 30px 40px;
+}
+
+#newtask{
+    position: relative;
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+#newtask input{
+    width: 70%;
+    height: 45px;
+    border:2px solid white;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    padding: 12px;
+    color: black;
+    font-weight: 500;
+    position: relative;
+}
+#newtask input:focus{
+    outline: none;
+    border-color: #4753fc;
+}
+#newtask button{
+    position: relative;
+    float: right;
+    width: 20%;
+    height: 45px;
+    font-family: 'Poppins',sans-serif;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    background-color: #4753fc;
+    font: bold;
+    color: white;
+    cursor: pointer;
+}
+
+#tasks{
+    background-color: white;
+    padding: 30px 20px;
+    margin-top: 60px;
+    border: 10px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    position: relative;
+
+}
+
+
+
+
+#push{
+    background-color: #4753fc;
+    padding: 10px;
+}
+.task button {
+    background-color: #4753fc;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+}
+
+#tasks {
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    background-color: #ffffff;
+    padding: 30px 20px;
+    margin-top: 10px;
+}
+
+.task {
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: #aaaffb;
+    height: 50px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    display: flex;
+}
+
+.task span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.completed {
+    text-decoration: line-through;
+}
